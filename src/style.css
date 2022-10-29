@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.displayy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.econtainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+/* overflow: hidden; */
+
+
+}
+
+.ename {
+  color: #CFD7E9;
+  font-size: 22px
+}
+
+.ebutton {
+  color: 16px;
+  color: #fff;
+  width: 141px;
+  height: 42px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.eheader {
+  width: 100%;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.etable {
+  /* flex: 1 ; */
+
+  border: 3px solid #2C3C58 ;
+  border-top:none ;
+}
